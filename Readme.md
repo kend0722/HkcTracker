@@ -16,7 +16,6 @@
 - `utils`：一些其他的工具包和组件
 - `main.py`：主程序。
 - `Readme.md`：项目说明文档。
-- `requirements.txt`：项目依赖的Python库。
 
 ## 注意
 这只是一个示例demo，实际使用中可能需要根据具体需求进行修改。
