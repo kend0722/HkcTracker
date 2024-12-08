@@ -180,13 +180,13 @@ def main(args):
 class Args:
     # config
     demo= "video"
-    path = r"D:\kend\myPython\Hk_Tracker\data\videos\palace.mp4"
+    path = r"D:\kend\myPython\Hkctracker\data\videos\palace.mp4"
     # path = r"D:\kend\work\Hk_Tracker\data\dataset\test_images"
-    save_result= r"D:\kend\myPython\Hk_Tracker\visualization\vis_folder\demo_output"
+    save_result= r"D:\kend\myPython\Hkctracker\visualization\vis_folder\demo_output"
     fps= 30
     counts = 30
     # model
-    model_path = r"D:\kend\myPython\Hk_Tracker\detector_head\yolo11\yolo11s.onnx"
+    model_path = r"D:\kend\myPython\Hkctracker\weights\yolo11s.onnx"
     input_size = (640, 640)
     fp16 = False  # cpu no half
     # tracker

@@ -51,12 +51,13 @@ class BYTETracker(object):
         refind_stracks = []     # 存储当前帧中重新激活的跟踪对象。
         lost_stracks = []       # 存储当前帧中丢失的跟踪对象。
         removed_stracks = []    # 存储当前帧中移除的跟踪对象。
-        if output_results.shape[1] == 6:  # xyxy score cls
+        if output_results.shape[1] == 6:  # NOTE add xyxy score cls
             scale_ = False
             output_results = output_results.cpu().numpy()
             scores = output_results[:, 4]
             bboxes = output_results[:, :4]
         else:
+            scale_ = True
             output_results = output_results.cpu().numpy()
             scores = output_results[:, 4] * output_results[:, 5]
             bboxes = output_results[:, :4]  # x1y1x2y2

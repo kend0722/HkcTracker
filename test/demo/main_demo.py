@@ -4,7 +4,7 @@
 @Author  : Kend
 @FileName: main_demo.py.py
 @Software: PyCharm
-@modifier:
+@modifier:  请看demo_yolo11 或者demo_yolov5
 """
 import argparse
 import os.path as osp

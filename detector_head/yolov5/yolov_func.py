@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*- #
 # ----------------------------------------
 # File Name: yolov5_func.py
-# Author: 黄俊炳
-# modifier: 黄俊炳
+# Author: 谭康
+# modifier: 谭康
 # Version: v00
 # Created: ...
 # Modification: 2023/05/31
